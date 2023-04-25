@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+*{
+
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    
+    
+}
+
+body{
+    background-color: #0f172a;
+}
+
+.h2frm{
+
+    
+    color: aliceblue;
+    position: absolute;
+    padding: 100px;
+    top: 300px;
+    margin-left: 50px;
+    /*padding: 100px;
+    top: 300px;
+    right: 1px;*/
+}
+.h2frm{
+    
+    font-size: 70px;
+    text-shadow: 3px 8px 5px black;
+    text-decoration: 8px underline ;
+    text-underline-position: under;
+    text-decoration-style: dotted;
+
+}
+.frm{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+    
+}
+
+.containerFrm{
+   
+    width: 550px;
+    height: 820px;
+    padding: 30px 25px 20px 9px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px #000000;
+    
+}
+
+
+
+
+.txt{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 1px rgb(36, 33, 33);
+}
+.txt input{
+    
+    
+    height: 35px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+
+.txt label{
+
+    font-size: 40px;
+}
+
+.containerFrm a{
+    position: relative;
+  width: 10%;
+  height: 3%;
+  bottom: 17%;
+  overflow: hidden;
+  transition: 0.2s ;
+
+}
+
+
+textArea{
+
+    border: 2px black outset;
+    border-radius: 10px;
+}
+
+
+/*** ESTILOS BOTÓN SLIDE CLOSE ***/
+.btnfrm {
+    background: rgba(130, 140, 230, 0.9); /* color de fondo */
+    color: #000000; /* color de fuente */
+    padding: 16px 30px;    
+    border-radius: 10px; /* redondear bordes */
+    display: inline-block;
+    position: absolute;
+    left: 130%;    
+    text-decoration: none;
+    box-shadow: 0px 0px 70px #000000;
+
+  }
+  
+ 
+  
